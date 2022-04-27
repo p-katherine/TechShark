@@ -60,6 +60,10 @@ a{
 
 .cart-profile-img{
 	width: 40px;
-	margin-left: 170px;
+	margin-left: 165px;
 	padding: 0;
+}
+
+#profile{
+	margin-left: 170px;
 }
