@@ -18,15 +18,19 @@
   src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
 }
 
+body {
+	background-color: #F5F5F5;
+}
 
-a{
+a {
 	text-decoration: none;
 }
 
-a:visited{
+a:visited {
 	color: black;
 }
-.header-container{
+
+.header-container {
 	margin: 0 auto;
 	margin-top: 60px;
 	margin-bottom: 20px;
@@ -36,7 +40,7 @@ a:visited{
 
 }
 
-.title-name{
+.title-name {
 	font-family: Poppins-Regular, sans-serif;
 	font-size: 60px;
 	display: block;
@@ -48,12 +52,12 @@ a:visited{
 
 }
 
-.cart-profile{
+.cart-profile {
 	font-family: Poppins-Regular, sans-serif;
 	font-size: 25px;
 	font-style: normal;
 	font-weight: normal;
-	color: #151528;
+	color: black;
 	display: block;	
 	position: relative;
 	margin-left: 120px;
@@ -61,52 +65,53 @@ a:visited{
 	color: black;
 }
 
-#searcher{
+#searcher {
 	height: 45px;
 	width: 750px;
 	float: right;
 	position: relative;
-	margin-left: 150px;
-	border:0 solid #fff;
+	margin-left: 110px;
+	border:0;
 	border-bottom: 2px solid #000;
 	font-family: Poppins-Regular, sans-serif;
 	font-size: 20px;
 	padding-right: 20px;
 	outline: none;
 	margin-top: 25px;
+	background-color: #F5F5F5;
 }
 
-.search-img{
+.search-img {
 	width: 30px;
 	position: absolute;
-	margin-left: 880px;
+	margin-left: 840px;
 	margin-top: 25px;
 
 }
 
-.cart-profile-img{
+.cart-profile-img {
 	width: 40px;
 	margin-left: 140px;
 	padding: 0;
 }
 
-#profile{
+#profile {
 	margin-left: 150px;
 }
 
-#categories-title{
+#categories-title {
 	margin-top: 0;
 	width: 1920px;
 	font-family: Poppins-Regular, sans-serif;
 	
 }
 
-.categories{
+.categories {
 	margin: 0 auto;
 	width: 1700px;
 }
 
-.categories-blocks{
+.categories-blocks {
 	background-color: white;
 	box-shadow: 0 0 15px 10px rgba(221, 221, 221, 0.8);
 	width: 315px;
@@ -118,14 +123,14 @@ a:visited{
 	font-family: Poppins-Regular, sans-serif;
 }
 
-.blocks-title{
+.blocks-title {
 	font-family: Poppins-Regular, sans-serif;
 	font-size: 25px;
 	text-align: center;
 	margin: 0;
 }
 
-.blocks-images{
+.blocks-images {
 	height: 125px;
 	display: block;
 	float: none ;
